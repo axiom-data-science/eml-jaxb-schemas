@@ -124,4 +124,19 @@
     <url>https://github.com/axiom-data-science/eml-jaxb-schemas</url>
     <tag>HEAD</tag>
   </scm>
+
+  <distributionManagement>
+    <repository>
+      <id>axiom_releases</id>
+      <name>Axiom Releases</name>
+      <uniqueVersion>false</uniqueVersion>
+      <url>https://nexus.axiomalaska.com/nexus/content/repositories/releases</url>
+    </repository>
+    <snapshotRepository>
+      <id>axiom_snapshots</id>
+      <name>Axiom Snapshots</name>
+      <uniqueVersion>false</uniqueVersion>
+      <url>https://nexus.axiomalaska.com/nexus/content/repositories/snapshots</url>
+    </snapshotRepository>
+  </distributionManagement>
 </project>
