@@ -1,0 +1,165 @@
+<jaxb:bindings version="1.0" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb" 
+	xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+	xmlns:xjc="http://java.sun.com/xml/ns/jaxb/xjc" 
+	jaxb:extensionBindingPrefixes="xjc">
+
+  <jaxb:bindings>
+    <jaxb:globalBindings typesafeEnumMaxMembers="2000" />
+  </jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.eml" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-access.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.access" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-attribute.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.attribute" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-constraint.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.constraint" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-coverage.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.coverage" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-dataTable.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.dataTable" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-dataset.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.dataset" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-documentation.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.documentation" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-entity.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.entity" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-literature.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.literature" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-methods.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.methods" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-party.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.party" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-physical.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.physical" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-project.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.project" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-protocol.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.protocol" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-resource.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.resource" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-semantics.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.semantics" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-software.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.software" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-spatialRaster.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.spatialRaster" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-spatialReference.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.spatialReference" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-spatialVector.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.spatialVector" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-storedProcedure.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.storedProcedure" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-text.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.text" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-unitTypeDefinitions.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.unitTypeDefinitions" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="eml-view.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.ecoinformatics.eml.eml_2_2_0.view" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+
+	<jaxb:bindings schemaLocation="stmml.xsd" node="/xs:schema">
+		<jaxb:schemaBindings>
+			<jaxb:package name="org.xml_cml.stmml.stmml_1_2" />
+		</jaxb:schemaBindings>
+	</jaxb:bindings>
+</jaxb:bindings>
