@@ -2,9 +2,8 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.axiomdatascience</groupId>
-    <artifactId>jaxb-schemas</artifactId>
-    <version>0.3-SNAPSHOT</version>
-		<relativePath>../../pom.xml</relativePath>
+    <artifactId>eml-jaxb-schemas</artifactId>
+    <version>0.1-SNAPSHOT</version>
   </parent>
   <artifactId>eml-v2_2_0</artifactId>
   <name>Ecological Metadata Language (EML) v2.2.0 JAXB XML bindings</name>
