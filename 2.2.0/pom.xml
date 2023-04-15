@@ -5,7 +5,7 @@
     <artifactId>eml-jaxb-schemas</artifactId>
     <version>0.1-SNAPSHOT</version>
   </parent>
-  <artifactId>eml-v2_2_0</artifactId>
+  <artifactId>eml-jaxb-schemas-v2_2_0</artifactId>
   <name>Ecological Metadata Language (EML) v2.2.0 JAXB XML bindings</name>
 
   <build>
