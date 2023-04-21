@@ -64,7 +64,6 @@
             <useDependenciesAsEpisodes>true</useDependenciesAsEpisodes>
             <strict>false</strict>
             <extension>true</extension>
-            <schemaIncludes />
             <args>
               <arg>-XfixJAXB1058</arg>
               <arg>-XtoString</arg>

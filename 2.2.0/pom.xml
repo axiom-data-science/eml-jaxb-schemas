@@ -17,11 +17,6 @@
       <plugin>
         <groupId>org.jvnet.jaxb2.maven2</groupId>
         <artifactId>maven-jaxb2-plugin</artifactId>
-				<configuration>
-          <schemaIncludes>
-            <include>*.xsd</include>
-					</schemaIncludes>
-				</configuration>
       </plugin>
       <plugin>
         <groupId>org.codehaus.mojo</groupId>
